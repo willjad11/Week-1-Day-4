@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto";
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    border: 5px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    background-color: wheat;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+}
+
+.top {
+    position: fixed;
+    width: 800px;
+    height: 150px;
+    background-color: lightseagreen;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 10px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-top: 80px;
+    z-index: 10;
+}
+
+.name {
+    margin: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.description {
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    margin: 5px;
+}
+
+.editprofile {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.user-circle {
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: wheat;
+}
+
+.map-marker {
+    width: 12px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.gear {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
