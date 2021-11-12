@@ -78,6 +78,7 @@
 .con-title h2 {
     color: white;
     margin-right: 20px;
+    white-space: nowrap;
 }
 
 .con-amount h2{
