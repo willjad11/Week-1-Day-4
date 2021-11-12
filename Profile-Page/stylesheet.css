@@ -14,7 +14,7 @@
     vertical-align: top;
     height: 30px;
     background-color: black;
-    padding: 20px;
+    padding: 20px 50px 20px 50px;
     display: flex;
     justify-content: space-between;
 }
