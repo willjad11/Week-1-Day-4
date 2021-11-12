@@ -197,7 +197,10 @@
 .namepic {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+}
+
+.yourcon {
+    padding-bottom: 20px;
 }
 
 .namepic img {
@@ -207,6 +210,11 @@
     border-style: solid;
     border-radius: 50%;
     border-color: darkslategray;
+}
+
+.accept-close {
+    display: flex;
+    align-items: center;
 }
 
 .accept-close img {
@@ -219,12 +227,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .viewmorecons {
     border-top: solid 5px;
     border-color: darkslategray;
-    padding-left: 50px;
-    padding-top: 20px;
+    padding: 20px 0px 20px 50px;
 }
 /* BODY */
